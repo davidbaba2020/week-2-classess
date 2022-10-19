@@ -14,11 +14,10 @@ public class DaemonThreadDemo {
 				} catch (InterruptedException e) {
 					
 				}
-			
 			}
 		});
 		
-//		t1.setDaemon(true);
+		t1.setDaemon(true);
 		t1.start();
 		
 		TimeUnit.SECONDS.sleep(2);
