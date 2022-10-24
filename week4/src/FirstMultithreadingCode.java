@@ -15,7 +15,7 @@ public class FirstMultithreadingCode extends Thread{
             }
         });
 
-        //Third way to create threads in java: Extend the class and overide the run method
+        //Third way to create threads in java: Extend the class and override the run method
         Thread t3 = new FirstMultithreadingCode();
 
         //Forth way to create threads in java: By using lambda expression
