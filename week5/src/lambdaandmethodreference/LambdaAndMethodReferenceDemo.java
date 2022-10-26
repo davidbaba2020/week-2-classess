@@ -17,6 +17,8 @@ public class LambdaAndMethodReferenceDemo {
 			});
 			
 			DistanceCalculatorInterface dCalculator = (city1, city2) -> city1.getLogitude() - city2.getLogitude();
+
+
 			DistanceCalculatorInterface dCalculator2 = (city1, city2) -> {
 				System.out.println("Text inside lambda function");
 				return city1.getLogitude() - city2.getLogitude();
